@@ -64,7 +64,7 @@ namespace AC_Utils
 				acTrans.Commit();
 			}
 		}
-
+		// Overload method for CreateLry adding a color parameter
 		public static void CreateLry(string lryName, short colorNo)
 		{
 			// Get the current document and database, start a transaction
